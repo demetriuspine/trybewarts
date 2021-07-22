@@ -9,6 +9,7 @@
   justify-content: space-between;
   width: 100%;
   align-items: center;
+  color: white;
 }
 
 .trybewarts-login {
@@ -57,4 +58,12 @@ main {
 .textarea-container {
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  margin: 0 2% 2%;
+}
+
+.trybewarts-header-logo {
+  width: 75px;
 }
