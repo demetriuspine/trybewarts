@@ -33,18 +33,39 @@
           <option id="pytherina-house" value="Pytherina">Pytherina</option>
         </select>
       </section>
-      <section class="families">
-        <label for="family" id="label-family">Qual sua família?</label>
-        <label for="frontend">
-          <input value="Frontend" type="radio" name="family" id="frontend">Frontend
-        </label>
-        <label for="backend">
-          <input value="Backend" type="radio" name="family" id="backend">Backend
-        </label>
-        <label for="fullstack">
-          <input value="FullStack" type="radio" name="family" id="fullstack">FullStack
-        </label>
-      </section>
+      <div class="family-and-content-container">
+        <section class="families">
+          <label for="family" id="label-family">Qual sua família?</label>
+          <label for="frontend">
+            <input value="Frontend" type="radio" name="family" id="frontend">Frontend
+          </label>
+          <label for="backend">
+            <input value="Backend" type="radio" name="family" id="backend">Backend
+          </label>
+          <label for="fullstack">
+            <input value="FullStack" type="radio" name="family" id="fullstack">FullStack
+          </label>
+        </section>
+        <section class="content">
+          <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+          <div>
+            <input value="HoFs" type="checkbox" name="" id="hofs" class="subject">
+            <label for="hofs">HoFs</label>
+            <input value="Jest" type="checkbox" name="" id="jest" class="subject">
+            <label for="jest">Jest</label>
+            <input value="Promises" type="checkbox" name="" id="promises" class="subject">
+            <label for="promises">Promises</label>
+          </div>
+          <div>
+            <input value="React" type="checkbox" name="" id="react" class="subject">
+            <label for="react">React</label>
+            <input value="SQL" type="checkbox" name="" id="sqç" class="subject">
+            <label for="sqç">SQL</label>
+            <input value="Python" type="checkbox" name="" id="python" class="subject">
+            <label for="python">Python</label>
+          </div>
+        </section>
+    </div>
     </form>
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
   </main>

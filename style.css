@@ -48,3 +48,8 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.family-and-content-container {
+  display: flex;
+  justify-content: space-between;
+}
