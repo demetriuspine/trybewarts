@@ -43,3 +43,8 @@ main {
 .row {
   display: flex;
 }
+
+.families {
+  display: flex;
+  flex-direction: column;
+}
