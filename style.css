@@ -53,3 +53,8 @@ main {
   display: flex;
   justify-content: space-between;
 }
+
+.textarea-container {
+  display: flex;
+  flex-direction: column;
+}
