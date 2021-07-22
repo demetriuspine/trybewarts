@@ -21,7 +21,7 @@ input {
   margin-right: 1%;
 }
 
-main, #evaluation-form {
+main , #evaluation-form {
   display: flex;
 }
 
