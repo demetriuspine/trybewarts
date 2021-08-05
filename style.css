@@ -67,3 +67,8 @@ footer {
 .trybewarts-header-logo {
   width: 75px;
 }
+
+#counter {
+  display: flex;
+  justify-content: flex-end;
+}
